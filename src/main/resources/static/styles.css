@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.signup-image {
+	width: 20%;
+}
+
+.signup-form {
+	color: #00008B;
+}
+
+.header {
+	color: #b3d9ff;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.sub-header {
+	color: #00008B;
+}
+
+.foreground {
+	position: relative;
+}
+
+.background {
+	font-weight: bold;
+}
+
+.background::before {
+	content: "";
+	background-image: url("https://i.pinimg.com/originals/be/94/05/be94051618d2682a6658f814d54eb781.jpg");
+	background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.85;
+}
